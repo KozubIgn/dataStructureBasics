@@ -39,7 +39,10 @@ public class CreateArray {
         names.add("mark");
 
         //finding indes of arg
-        System.out.println("finding index" + names.indexOf("john"));
+        System.out.println("finding index " + names.indexOf("john"));
+       // convert Array list to array
+       String[] namesArray = names.toArray(new String[names.size()]);
+       
 
     
     }
