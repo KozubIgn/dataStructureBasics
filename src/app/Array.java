@@ -43,9 +43,9 @@ private static Scanner scanner = new Scanner(System.in);
         System.out.println("Enter " + sizeArray + " integer value: \n");
         int[] arrayFromInputs = new int [sizeArray];
         
-        for (int = 0; i < arrayFromInputs.length; i ++){
+        for (int i = 0; i < arrayFromInputs.length; i ++){
             arrayFromInputs[i]= scanner.nextInt();
-=        }
+    }
     return arrayFromInputs;
     }
     
