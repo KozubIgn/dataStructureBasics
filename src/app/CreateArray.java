@@ -1,6 +1,5 @@
 package app;
 import java.util.ArrayList;
-import java.util.List;
 
 public class CreateArray {
     public static void main(String[] args){
@@ -42,7 +41,7 @@ public class CreateArray {
         System.out.println("finding index " + names.indexOf("john"));
        // convert Array list to array
        String[] namesArray = names.toArray(new String[names.size()]);
-       
+
 
     
     }
